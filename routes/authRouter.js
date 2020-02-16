@@ -1,6 +1,6 @@
 require("dotenv").config();
 const router = require("express").Router();
-const googleUtil = require("../utils/google-util");
+const googleUtil = require("../utils/google-utils");
 const setCookie = require("../middleware/setCookie");
 
 require("dotenv").config();

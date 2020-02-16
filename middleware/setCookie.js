@@ -1,4 +1,4 @@
-const googleUtil = require("../utils/google-util");
+const googleUtil = require("../utils/google-utils");
 
 // middleware to check and save session cookie
 const setCookie = async (req, res, next) => {
